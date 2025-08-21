@@ -24,6 +24,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "addfive",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -80,10 +93,23 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "sayHello",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_favoriteNumber",
+						"name": "_favnum",
 						"type": "uint256"
 					}
 				],
@@ -106,7 +132,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SimpleStorage.sol": "SimpleStorage"
+			"contracts/addfive.sol": "addFive"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -126,6 +152,14 @@
 			"urls": [
 				"bzz-raw://2dd2524d1538f63f7ace31a52c3a4bed419a0285c1e4714a628855feaa5a137e",
 				"dweb:/ipfs/QmU3gUyTFbF966Qs5b6jmzkB4gCn4stG9bZhk4mn9mrrkJ"
+			]
+		},
+		"contracts/addfive.sol": {
+			"keccak256": "0x334499df0df801a973a4d9582fe096c19c52dcc6f69f2f9ef266727ece29ccc5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0e1c60500a889606b9a7172fbdbcb8334113109868bb1852e96f141678e59884",
+				"dweb:/ipfs/QmaFqsp13ZXqGP7BXR89u5yDjeyD4zLKhfG7GLBr69yGdX"
 			]
 		}
 	},
